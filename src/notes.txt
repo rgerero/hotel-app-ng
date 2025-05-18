@@ -5,3 +5,6 @@ ng g c home --module=home
 ng g m reservation
 ng g c reservation-form --module=reservation
 ng g c reservation-list --module=reservation
+
+ng g s reservation
+ng g i reservation/reservation
