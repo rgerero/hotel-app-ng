@@ -94,8 +94,11 @@
         }
       }
     }
+<<<<<<< HEAD
   },
   "cli": {
     "analytics": false
+=======
+>>>>>>> d8e2a95 (initial commit)
   }
 }
