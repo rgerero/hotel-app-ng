@@ -1,0 +1,7 @@
+ng new hotel-app-ng
+ng g m home
+ng g c home --module=home
+
+ng g m reservation
+ng g c reservation-form --module=reservation
+ng g c reservation-list --module=reservation
