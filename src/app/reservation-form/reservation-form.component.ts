@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-reservation-form',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./reservation-form.component.css']
 })
 export class ReservationFormComponent {
+  reservationForm: FormGroup=new FormGroup({
 
+  });
+
+  onSubmit(){
+    
+  }
 }
