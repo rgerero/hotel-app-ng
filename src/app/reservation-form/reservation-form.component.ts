@@ -33,6 +33,7 @@ export class ReservationFormComponent implements OnInit {
     })
 
     let id=this.activatedRoute.snapshot.paramMap.get('id')
+    // console.log(id)    
 
     if(id){
       let reservation=this.reservationService.getReservation(id)
@@ -47,7 +48,7 @@ export class ReservationFormComponent implements OnInit {
     if(this.reservationForm.valid){
       let reservation: Reservation = this.reservationForm.value;
       let id=this.activatedRoute.snapshot.paramMap.get('id')
-      console.log(id)
+      // console.log(reservation)
       if(id){
         this.reservationService.updateReservation(id,reservation);
       }
