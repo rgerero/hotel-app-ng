@@ -8,3 +8,5 @@ ng g c reservation-list --module=reservation
 
 ng g s reservation
 ng g i reservation/reservation
+
+download mokoon for mock api
